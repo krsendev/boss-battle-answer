@@ -4,7 +4,7 @@ return [
     'database' => [
         'host' => '127.0.0.1',
         'username' => 'app_user',
-        'password' => 'SuperSecret123!',
+        'credentials' => getenv('db_credentials'),
         'name' => 'boss_battle',
     ],
 ];
